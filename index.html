@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Web Page</title>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+<!--NAVBAR-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		
+		<div class="container" 	>
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my_navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Amine Cite Web</a>
+		    </div>
+			<div id="my_navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#"><i class="glyphicon glyphicon-home"> Home</i></a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Categories</a></li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown"	>Programing<span class="caret"></span></a>
+			        		<ul class="dropdown-menu">
+			        			<li class="dropdown-header">Languages</li>
+			        			<li role="separator" class="divider"></li>
+			        			<li><a href="#">Java</a></li>
+			        			<li><a href="#">C++</a></li>
+			        			<li><a href="#">HTML</a></li>
+			        			<li><a href="#">CSS</a></li>	
+			        		</ul>
+			        	
+			        </li>
+					
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="glyphicon glyphicon-user"> Sign Up</i></a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-lock"> Login</i></a></li>	
+				</ul>
+				
+			</div>
+		</div>
+
+	</nav>
+<!--Jumbotron-->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h1 style="color: #ab00ff ;font-size: 40pt"	>Hello Word</h1>
+					<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+				</div>
+
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/1.gif" alt="you can't see this image" style="margin-top: 35px" >
+					
+				</div>
+			</div>
+		</div>
+	</div>	
+<!--Articles-->
+ 	<div class="container">
+ 		<div class="row">
+ 			<!--Posts-->
+ 			<div class="col-md-8">
+ 				<h1 class="page-header">OUR ARTICLES</h1>
+ 				<!--First article-->
+ 				<h2><a href="#">Introduction to HTML Coding</a></h2>
+ 				<p>Written by <span class="glyphicon glyphicon-user"></span><a href="#"> Amine</a> at: <span class="glyphicon glyphicon-time"></span> 12/12/2018-12:48</p>
+ 				<hr>
+ 				<img src="images/2.jpg" class="img-responsive thumbnail">
+ 				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+ 				<p><a href="#" class="btn btn-primary btn-lg" role="button">Read more <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+ 				<hr>
+ 				<!--second Article-->
+ 				<h2><a href="#">Introduction to CSS </a></h2>
+ 				<p>Written by <span class="glyphicon glyphicon-user"></span><a href="#"> Amine</a> at: <span class="glyphicon glyphicon-time"></span> 12/12/2018-12:48</p>
+ 				<hr>
+ 				<img src="images/3.png" class="img-responsive thumbnail">
+ 				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+ 				<p><a href="#" class="btn btn-primary btn-lg" role="button">Read more <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+ 				<hr>
+ 			</div>
+ 			<!--Sidebar-->
+ 			<div class="col-md-4">
+ 				
+ 			</div>
+ 			
+ 		</div>	
+ 		
+ 	</div>
+
+
+
+</body>
+</html>
